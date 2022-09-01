@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ebc757;
+}
+.todo_form
+{   
+    cursor: pointer;
+    text-align: center;
+    background: #ffd42e;
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1), 
+    -10px -10px 15px rgba(51, 42, 42, 0.733);
+
+}
+button
+{
+    background: #6b6161;
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,1),
+    inset -1px -1px 20px rgb(238, 238, 241);
+}
+button :active
+{
+    box-shadow: inset 3px 3px 10px rgba(0,0,0,1),
+    inset -3px -3px 10px #fff;
+    color: #2e0a07;
+}
+input
+{
+    border-radius: 25px;
+    cursor: pointer;     
+}
+.card
+{   
+    text-align: center;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background: #ebebeb;
+}
+.card-active
+{
+    text-align: center;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background: #a59b9b;
+}
